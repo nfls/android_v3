@@ -85,7 +85,7 @@ public class FileAdapter(var list: ArrayList<File>, var context: Context): BaseA
                 string = "已缓存 - "
             else
                 string = sizeCalc(file.size) + " - "
-            val df = SimpleDateFormat("yyyy/MM/DD HH:mm:ss")
+            val df = SimpleDateFormat("yyyy/MM/dd HH:mm:ss")
             string += df.format(file.date)
         }
         return string

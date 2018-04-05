@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mybutton"
+        android:title="使用其他应用打开"
+        app:showAsAction="always"
+        />
+</menu>
